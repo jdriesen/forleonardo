@@ -1,4 +1,4 @@
-// Leonardo, i've written this text in French, cause I don't know your language...
+// Leonardo, i've written this text in French, cause I don't know your language... is Portuguese :)
 export default {
-	visited: 'Bienvenu {name}, vous avez visitez cette page {amount} fois',
+	visited: 'Olá {name}, você visitou essa página {amount} vezes',
 }
