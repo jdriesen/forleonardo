@@ -2,7 +2,7 @@
 	<div>
 		<hr />
 		<p>This is hardcoded...</p>
-		<p>This is a computed field.... <b>{{theTranslatedText}}</b></p>
+		<p>This is a computed field.... <b v-lang.myfooter.visited="visited"></b></p>
 		<hr />
 	</div>
 </template>
@@ -10,6 +10,14 @@
 <script>
 export default{
 	name: 'myfooter',
+	data() {
+		return {
+			visited: {
+				name: 'Johnny',
+				amount: 57
+			}
+		}
+	},
 
 	computed: {
 		theTranslatedText() {
